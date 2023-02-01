@@ -281,7 +281,7 @@ export class CohortBuilderComponent implements OnInit {
     // this.FormattedData3 =[];
     // this.FormattedData4 =[]; 
     window.location.reload();
-    
+    localStorage.clear();
   }
 
   deleteIncTag(i) {
